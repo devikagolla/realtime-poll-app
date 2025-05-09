@@ -1,0 +1,29 @@
+.join-room {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-room input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.join-room button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-room button:hover {
+  background: #005dc1;
+}

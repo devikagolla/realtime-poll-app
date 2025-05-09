@@ -1,0 +1,35 @@
+.poll-room {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.poll-room h2 {
+  margin-bottom: 20px;
+}
+
+.options button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.options button.vote-selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.options button.vote-disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 18px;
+  color: red;
+}
